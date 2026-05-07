@@ -4,6 +4,7 @@ import Status from './components/Status';
 import Programs from './components/Programs';
 import WhyUs from './components/WhyUs';
 import Transformation from './components/Transformation';
+import Membership from './components/Membership';
 
 
 import './App.css'
@@ -21,6 +22,7 @@ function App() {
     < Programs />
     < WhyUs />
     < Transformation />
+    < Membership />
 
      </>
      
