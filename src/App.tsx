@@ -5,6 +5,7 @@ import Programs from './components/Programs';
 import WhyUs from './components/WhyUs';
 import Transformation from './components/Transformation';
 import Membership from './components/Membership';
+import Footer from './components/Footer';
 
 
 import './App.css'
@@ -23,6 +24,7 @@ function App() {
     < WhyUs />
     < Transformation />
     < Membership />
+    < Footer />
 
      </>
      
