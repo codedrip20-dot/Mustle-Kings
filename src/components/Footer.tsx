@@ -201,14 +201,15 @@ const Footer = () => {
           className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 text-center md:flex-row"
         >
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} IRONCORE. All rights reserved.
+            © {new Date().getFullYear()} CodeDrip. All rights reserved.
+
+          </p>
+           <p className="text-sm text-gray-500">
+            © {new Date().getFullYear()} Utsav: developer.
           </p>
 
-          <p className="text-sm text-gray-500">
-            Developed by{" "}
-            <span className="font-medium text-white">@codedrip</span> ·{" "}
-            <span className="font-medium text-white">@utsavKarki</span>
-          </p>
+
+        
         </motion.div>
       </div>
     </footer>
